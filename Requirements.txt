@@ -1,0 +1,3 @@
+Python==3.8.2
+PyAutoGUI==0.9.50
+Time module
