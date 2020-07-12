@@ -3,7 +3,8 @@ import time
 import tkinter as tk
 
 def screenshot():
-    name = int(round(time.time() * 1000))
+    """ Function to take a screenshot and name it"""
+    name = int(round(time.time() * 1000))    # Stores a random numerical name for the screenshot.
     img = pyautogui.screenshot(f"{name}.png")
     img.show()
 
